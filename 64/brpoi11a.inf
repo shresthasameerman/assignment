@@ -1,0 +1,159 @@
+;=======================================================================
+;  Brother MFC Setup File
+;  Copyright (c)  2009 Brother Industries,LTD.
+;  FileName   :   brpoi11a.inf
+;  Function   :   Ports
+;  I/F        :   USB
+;  OS         :   Windows2000/XP/Vista/Windows7
+;  Model      :   i11a
+;=======================================================================
+[Version]
+Signature  = "$Windows NT$"
+Class      = Ports
+ClassGUID  = {4d36e978-e325-11ce-bfc1-08002be10318}
+Provider   = %Provider%
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=%DriverPackageDisplayName%
+DriverVer= 08/02/2012, 01.00.07.07
+CatalogFile= brpoi11a.cat
+
+[Manufacturer]
+%Manufact% = MFC_SER, NTx86, NTamd64
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+[MFC_SER]
+"Brother MFC-J432W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0290&MI_02
+"Brother MFC-J425W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028F&MI_02
+"Brother MFC-J275W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028E&MI_02
+"Brother MFC-J835DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028D&MI_02
+"Brother MFC-J635DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028C&MI_02
+"Brother MFC-J860DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0287&MI_02
+"Brother MFC-J810D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0286&MI_02
+"Brother MFC-J705D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0285&MI_02
+"Brother MFC-J825N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0284&MI_02
+"Brother MFC-J825DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0283&MI_02
+"Brother MFC-J625DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0282&MI_02
+"Brother MFC-J430W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0281&MI_02
+"Brother MFC-J435W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0280&MI_02
+"Brother MFC-J280W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027F&MI_02
+"Brother MFC-J955DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027E&MI_02
+"Brother MFC-J710D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BE&MI_02
+"Brother MFC-J840N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BF&MI_02
+"Brother MFC-J960DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02C1&MI_02
+"Brother MFC-J810DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02B2&MI_02
+
+[MFC_SER.NTx86]
+"Brother MFC-J432W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0290&MI_02
+"Brother MFC-J425W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028F&MI_02
+"Brother MFC-J275W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028E&MI_02
+"Brother MFC-J835DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028D&MI_02
+"Brother MFC-J635DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028C&MI_02
+"Brother MFC-J860DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0287&MI_02
+"Brother MFC-J810D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0286&MI_02
+"Brother MFC-J705D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0285&MI_02
+"Brother MFC-J825N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0284&MI_02
+"Brother MFC-J825DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0283&MI_02
+"Brother MFC-J625DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0282&MI_02
+"Brother MFC-J430W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0281&MI_02
+"Brother MFC-J435W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0280&MI_02
+"Brother MFC-J280W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027F&MI_02
+"Brother MFC-J955DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027E&MI_02
+"Brother MFC-J710D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BE&MI_02
+"Brother MFC-J840N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BF&MI_02
+"Brother MFC-J960DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02C1&MI_02
+"Brother MFC-J810DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02B2&MI_02
+
+[MFC_SER.NTamd64]
+"Brother MFC-J432W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0290&MI_02
+"Brother MFC-J425W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028F&MI_02
+"Brother MFC-J275W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028E&MI_02
+"Brother MFC-J835DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028D&MI_02
+"Brother MFC-J635DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_028C&MI_02
+"Brother MFC-J860DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0287&MI_02
+"Brother MFC-J810D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0286&MI_02
+"Brother MFC-J705D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0285&MI_02
+"Brother MFC-J825N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0284&MI_02
+"Brother MFC-J825DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0283&MI_02
+"Brother MFC-J625DW Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0282&MI_02
+"Brother MFC-J430W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0281&MI_02
+"Brother MFC-J435W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_0280&MI_02
+"Brother MFC-J280W Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027F&MI_02
+"Brother MFC-J955DN Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_027E&MI_02
+"Brother MFC-J710D Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BE&MI_02
+"Brother MFC-J840N Remote Setup Port" = BROTHER.USB.SERIAL, USB\VID_04F9&PID_02BF&MI_02
+"Brother MFC-J960DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02C1&MI_02
+"Brother MFC-J810DN Remote Setup Port"= BROTHER.USB.SERIAL, USB\VID_04F9&PID_02B2&MI_02
+
+[BROTHER.USB.SERIAL]
+CopyFiles=BROTHER.USB.SERIAL.CopyFiles
+
+[BROTHER.USB.SERIAL.Services]
+Addservice = BrSerIb , 0x00000002, BrSerIb.AddService
+Addservice = BrUsbSIb, 0x00000000, BrUsbSIb.AddService
+
+[BROTHER.USB.SERIAL.HW]
+AddReg=BROTHER.USB.SERIAL.AddReg.HW
+
+[BROTHER.USB.SERIAL.CopyFiles]
+BrSerIb.sys
+BrUsbSib.sys
+
+;-------------------------------------------------------------------------------
+; Lower Filter Driver 
+;
+[BROTHER.USB.SERIAL.AddReg.HW]
+HKR,,"LowerFilters", 0x00010000, "BrUsbSIb"
+
+;--------------------------------------------------
+; Add Service
+;
+[BrSerIb.AddService]
+DisplayName    = %BrSerIb.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\BrSerIb.sys
+
+[BrUsbSIb.AddService]
+DisplayName    = %BrUsbSIb.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\BrUsbSIb.sys
+
+;----------------------------------------------------------------------
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %BrDrvDisk1%
+
+[SourceDisksNames.x86]
+2 = %BrDrvDisk1%,,,x86
+
+[SourceDisksNames.amd64]
+3 = %BrDrvDisk1%,,,amd64
+
+[SourceDisksFiles]
+
+[SourceDisksFiles.x86]
+BrSerIb.sys=2
+BrUsbSib.sys=2
+
+[SourceDisksFiles.amd64]
+BrSerIb.sys=3
+BrUsbSib.sys=3
+
+[Strings]
+Manufact = "Brother"
+Provider = "Brother"
+DriverPackageDisplayName="MFC-J432W,MFC-J425W,MFC-J275W,MFC-J835DW,MFC-J635DW,MFC-J860DN,MFC-J810D,MFC-J705D,MFC-J825N,MFC-J825DW,MFC-J625DW,MFC-J430W,MFC-J435W,MFC-J280W,MFC-J955DN,MFC-J840N,MFC-J710D,MFC-J960DN,MFC-J810DN"
+
+BrDrvDisk1 = "Brother Driver Disk"
+
+BrSerIb.SvcDesc = "Brother Serial Interface Driver(WDM)"
+BrUsbSIb.SvcDesc = "Brother Serial USB Driver(WDM)"
+
